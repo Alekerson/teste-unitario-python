@@ -11,3 +11,9 @@ class Retangulo:
             return True
         else:
             return False
+
+    def calcularArea(self, ):
+        print(f'A área do retangulo é {self.largura} + {self.altura} = {self.largura + self.altura}')
+
+    def calcularPerimetro(self,):
+        print(f'O perímetro é {2*(self.altura + self.largura)}')
