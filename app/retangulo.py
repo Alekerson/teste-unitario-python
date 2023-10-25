@@ -6,14 +6,13 @@ class Retangulo:
     
     def definirDimensoes(self, ):
         if self.altura and self.largura > 0:
-            print(f'A altura do do retangulo é {self.altura}M')
-            print(f'A largura do retangulo é {self.largura}M')
-            return True
+            return f"A altura do do retangulo é {self.altura} M"
+          
         else:
             return False
 
     def calcularArea(self, ):
-        print(f'A área do retangulo é {self.largura} + {self.altura} = {self.largura + self.altura}')
+        return f"A área do retangulo é {self.largura} + {self.altura} = {self.largura + self.altura}"
 
     def calcularPerimetro(self,):
-        print(f'O perímetro é {2*(self.altura + self.largura)}')
+        return f"O perímetro é {2*(self.altura + self.largura)}"
